@@ -83,7 +83,7 @@ echo.
 :UNLOCK
 echo Enter password to Unlock Your Secure Folder
 set /p "pass=>"
-if NOT %password%== pt235nik goto FAIL
+if NOT %password%== your_password goto FAIL
 attrib -h -s "Control Panel.{ADF0FMGTAD7F453KSD-3AEH-SD7G-7AD8-8324J11239}"
 ren "Control Panel.{ADF0FMGTAD7F453KSD-3AEH-SD7G-7AD8-8324J11239}" Private
 echo Folder Unlocked successfully
@@ -129,7 +129,7 @@ timeout 1 > NUL
 echo collecting info
 timeout 5 > NUL
 echo info
-echo password: pt235nik
+echo password: your_password
 echo hiden files: Control Panel.{ADF0FMGTAD7F453KSD-3AEH-SD7G-7AD8-8324J11239}
 pause
 

@@ -30,7 +30,7 @@ goto main
 
 if %test%==1 goto reset
 if %test%==2 goto chose    
-if %test%==code-crack goto crack 
+if %test%==crack goto crack 
 :reset
 cls
 echo.
